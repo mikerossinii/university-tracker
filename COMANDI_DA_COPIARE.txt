@@ -1,0 +1,66 @@
+===========================================
+COMANDI PER GITHUB - COPIA E INCOLLA
+===========================================
+
+IMPORTANTE: Sostituisci "TUO-USERNAME" con il tuo username GitHub!
+
+-------------------------------------------
+COMANDO 1: Collega a GitHub
+-------------------------------------------
+
+git remote add origin https://github.com/TUO-USERNAME/university-tracker.git
+
+
+-------------------------------------------
+COMANDO 2: Carica su GitHub
+-------------------------------------------
+
+git push -u origin main
+
+
+===========================================
+CONFIGURAZIONE RENDER - COPIA QUESTI VALORI
+===========================================
+
+Name: 
+university-tracker
+
+Region: 
+Frankfurt
+
+Branch: 
+main
+
+Root Directory: 
+(lascia vuoto)
+
+Environment: 
+Node
+
+Build Command: 
+npm install && npm run install-all && npm run build
+
+Start Command: 
+npm start
+
+Plan: 
+Free
+
+Environment Variable:
+Key: NODE_ENV
+Value: production
+
+
+===========================================
+FATTO!
+===========================================
+
+Dopo aver eseguito questi comandi:
+1. Il codice sarà su GitHub
+2. L'app sarà live su Render
+3. Avrai un URL da condividere!
+
+Tempo totale: 10 minuti
+Costo: $0
+
+🚀 Buon deploy!
